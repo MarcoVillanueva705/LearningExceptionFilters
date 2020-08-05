@@ -17,9 +17,9 @@ namespace LearningExceptionFilters
         {
             try
             {
-                //throw new PersonException("Kim");
+                throw new PersonException("Kim");
                 //commenting out either will throw other catch 
-                throw new PersonException("Chap");
+                //throw new PersonException("Chap");
             }
             catch (PersonException ex)
             {
